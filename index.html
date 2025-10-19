@@ -33,7 +33,7 @@
               id="new-task"
               type="text"
             >
-            <button class="form__btn button">Add</button>
+            <button class="form__btn button" type="button">Add</button>
           </div>
         </form>
       </section>
@@ -51,8 +51,8 @@
               </button>
             </article>
           </li>
-          <li class="section__item section__item_edit-mode">
-            <article class="task">
+          <li class="section__item">
+            <article class="task task_edit-mode">
               <input class="task__checkbox" type="checkbox">
               <label class="task__label">Go Shopping</label>
               <input 
@@ -60,7 +60,7 @@
                 type="text" 
                 value="Go Shopping" 
               >
-              <button class="task__save-btn button">Save</button>
+              <button class="task__edit-btn button">Save</button>
               <button class="task__delete-btn button">
                 <img class="task__img" src="./remove.svg" alt="Delete button">
               </button>
@@ -74,7 +74,7 @@
           <li class="section__item">
             <article class="task">
               <input class="task__checkbox" type="checkbox" checked>
-              <label class="task__label task__label_completed">See the Doctor</label>
+              <label class="task__label">See the Doctor</label>
               <input class="task__title" type="text">
               <button class="task__edit-btn button">Edit</button>
               <button class="task__delete-btn button">
